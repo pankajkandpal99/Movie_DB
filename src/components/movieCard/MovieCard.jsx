@@ -1,12 +1,12 @@
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import PosterFallback from "../../assets/no-poster.png";
-import Img from "../lazyLoadImage/img";
+import Img from "../lazyLoadImage/Img";
 import React from "react";
 import CircleRating from "../circleRating/CircleRating";
 import dayjs from "dayjs";
-import "./style.scss";
 import Genres from "../genres/Genres";
+import "./style.scss";
 
 const MovieCard = ({ data, fromSearch, mediaType }) => {
   const { url } = useSelector((state) => state.home);
