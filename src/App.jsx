@@ -8,13 +8,13 @@ import DetailsPage from "./pages/details/DetailsPage";
 import SearchResultPage from "./pages/searchResult/SearchResultPage";
 import ExplorePage from "./pages/explore/ExplorePage";
 import PageNotFound from "./pages/404/PageNotFound";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/footer";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const dispatch = useDispatch();
   const { url } = useSelector((state) => state.home); // neeche saved api ke data ko access kiya ja ra hai ... ye home redux store se direct return ho ra hai ...
-  console.log(url);
+  // console.log(url);
 
   useEffect(() => {
     fetchApiConfig();
