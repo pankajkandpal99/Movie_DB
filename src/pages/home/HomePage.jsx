@@ -1,8 +1,8 @@
 import HeroBannerPage from "./heroBanner/HeroBannerPage";
 import Trending from "./trending/Trending";
-import Popular from "./popular/popular";
-import "./style.scss";
+import Popular from "./popular/Popular";
 import TopRated from "./topRated/TopRated";
+import "./style.scss";
 
 const HomePage = () => {
   return (
