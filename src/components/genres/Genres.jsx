@@ -9,12 +9,10 @@ const Genres = ({ data }) => {
     <div className="genres">
     {/* isme neeche line me genre_ids me map kiya ja ra hai jo ki data ke naam se hai */}
       {data?.map((genre) => {
-        {
-          /* console.log(genre);     // isme genres ki ids print hogi...  */
-        }
-        {
-          /* console.log(genres[genre].name); */
-        }
+        
+          // console.log(genre);     // isme genres ki ids print hogi...  */
+          // console.log(genres[genre].name); */
+        
         if (!genres[genre]?.name) return;
         return (
           <div key={genre} className="genre">

@@ -6,7 +6,7 @@ import {
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import Img from "../lazyLoadImage/img";
+import Img from "../lazyLoadImage/Img";
 import dayjs from "dayjs";
 import PosterFallBack from "../../assets/no-poster.png";
 import CircleRating from "../circleRating/CircleRating";

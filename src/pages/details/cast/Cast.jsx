@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import avatar from "../../../assets/avatar.png";
-import Img from "../../../components/lazyLoadImage/img";
+import Img from "../../../components/lazyLoadImage/Img";
 import "./style.scss";
 
 const Cast = ({ data, loading }) => {
