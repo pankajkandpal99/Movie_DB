@@ -15,8 +15,8 @@ import "./style.scss";
 
 const Carousel = ({ title, data, loading, endPoint }) => {
   // console.log(data);
-  const carouselContainer = useRef(); // jaise javascript me kisi bhi html element ko select karne ke liye document.getElement ya fir document.querySelector use kiya jata hai but react me aise ni kiya jata hai, react me kisi bhi element or Node ko select karke access karne ke liye uska refrence liya jata hai useRef() hook ke dwara, jo ki uss element ka refrence hame de deta hai currenct property ke through...
-  const { url } = useSelector((state) => state.home); // store me rootReducer se homeSlice ke andar state se url ko extract kiya gaya hai...
+  const carouselContainer = useRef(); 
+  const { url } = useSelector((state) => state.home); 
   const navigate = useNavigate();
 
   const navigation = (dir) => {
